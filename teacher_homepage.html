@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <script lang="javascript">
+
+        function confirmChoice() {
+            if (confirm("密碼為xxx   請你選擇是否寄出密碼重設信")) { 　alert("已送出密碼重設信") }
+
+        }
+    </script>
+    <style>
+        @import url(teacher_zone/teacher_homepage.css);
+    </style>
+    <title>管理者首頁</title>
+</head>
+
+<body>
+    <br>
+    
+        <br>
+        <br>
+    <div align="center">
+        <table border="3">
+            <tr>
+                <a href="checklist.html" target="teacherframe" class="btn btn-success" role="button">學生清單列表</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="teacher_all_cantdoc.html" target="teacherframe" class="btn btn-success" role="button">核定作業及學生密碼查詢</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="www.google.com" target="teacherframe" class="btn btn-success" role="button">後續加退選作業</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="index.html" target="_parent" class="btn btn-danger" role="button"><span class="white">登出</span></a>
+            </tr>
+        </table>
+    </div>
+    
+    
+    <br>
+
+    <iframe name="teacherframe" src="" width="1441" height="1190" marginwidth="0" marginheight="0" frameborder="0"
+        id="teacherframe" scrolling="yes">
+
+    </iframe>
+</body>
+
+</html>

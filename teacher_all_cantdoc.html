@@ -1,0 +1,114 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>學生核定作業</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <style>
+            caption {color:deepskyblue;caption-side: top}
+        </style>
+        <script lang="javascript">
+
+            function confirmChoice() {
+                if (confirm("密碼為xxx   請你選擇是否寄出密碼重設信")) { 　alert("已送出密碼重設信") }
+    
+            }
+        </script>
+    </head>
+	<body>
+		<form method="POST" action="#" onsubmit="confirmChoice()">       
+		<table border="1" align="center" rules="groups" id="table1" class="table table-striped table-bordered table-hover table-responive" style= "width:60%;" id="table1"> 
+			<caption><h1 align="middle">輔仁大學跨校選課申請</h1></caption>
+			<thead>
+				<tr class="info">
+					<th style="text-align: center" width=100px>學生密碼查詢</th>
+				</tr>
+				<tr>
+                    <th style="text-align: center" width=100px>身分證號&nbsp;&nbsp;&nbsp;<input type="text" size="15" required>&nbsp;&nbsp;</th>
+				</tr>
+                <tr>
+                    <th style="text-align: center"><input class="btn btn-default" type="submit" value="密碼查詢"></th>
+                </tr>
+                </form>
+                
+                <table border="0" align="center" rules="groups" id="table1" class="table table-striped table-hover table-responive" style= "width:50%;" id="table3">
+                        <caption><h3 class="info">1.申請學生基本資料：</h3></caption>
+                        <tr>
+                            <th align="center">姓名：</th>
+                            <th align="center">就讀學校：</th>
+                        </tr>
+                        <tr>
+                            <th align="center">學系：</th>
+                            <th align="center">系所組年紀：</th>
+                    </tr>
+                    <tr>
+                            <th align="center">學號：</th>
+                            <th align="center">身分證字號：</th>
+                    </tr>
+                    <tr>
+                        
+                            <th align="center">行動電話：</th>
+                            <th align="center">聯絡電話：</th>
+                    </tr>
+                    <tr>                       
+                            <th align="center">電子郵件：</th>
+                    </tr>
+                    <tr>
+                        <th align="center">選課學期：</th>
+                    </tr>
+                    <tr>
+                        <th align="center">本校學號：</th> 
+                    </tr>                      
+                </table>
+                <form>
+                <table border="1" align="center" rules="groups" id="table1" class="table table-striped table-bordered table-hover table-responive" style= "width:80%;" id="table3">
+            
+                <caption><h1>2.選課資料 <br><p></p> <p style="text-align: left"><a href="teacher_all_doc.html" target="teacherframe" class="btn btn-default" role="button">編輯</a></p></h1></caption>
+                   
+                    <thead>
+                        <tr class="info" style="font-size:12;">
+                            <th align="center" >開課單位</th>
+                            <th align="center">開課代碼</th>
+                            <th align="center">主關代碼</th>
+                            <th align="center">科目名稱</th>
+                            <th align="center">學分</th>
+                            <th align="center">選別</th>
+                            <th align="center">學分費</th>
+                            <th align="center">語言實習費</th>
+                            <th align="center">電腦實習費</th>
+                            <th align="center">一般實習費</th>
+                            <th align="center">費用小記</th>
+                            <th align="center">審查狀態</th>
+                            <th align="center">核定</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td width=100px>ccccc</td>
+                            <td width=100px>ccccc</td>
+                            <td width=100px>ccccc</td>
+                            <td width=100px>ccccc</td>
+                            <td width=100px>ccccc</td>
+                            <td width=100px>ccccc</td>
+                            <td width=100px>ccccc</td>
+                            <td width=100px>ccccc</td>
+                            <td width=100px>ccccc</td>
+                            <td width=100px>ccccc</td>
+                            <td width=100px>ccccc</td>
+                            <td width=100px>
+                                <input type="radio" name="yesorno" value="yes" disabled>已通過
+                                <br><input type="radio" name="yesorno" value="no" checked disabled>未通過
+                            </td>
+                            <td width=100px><input type="checkbox" name="step" value="first" checked disabled>初審
+                                <br><input type="checkbox" name="step" value="second" disabled>繳費
+                                <br><input type="checkbox" name="step" value="final" disabled>核定
+                            </td>
+                        </tr>
+                    </tbody>
+			</table>
+            </form>
+			</thead>
+			</table>	   
+		</form>
+	</body>
+</html>

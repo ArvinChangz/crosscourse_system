@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    font-style: inherit;
+}
+
+ul {
+    list-style-type: decimal;
+    
+}
+
+.allred {
+    color:red;
+}
+.orange {
+    color:orange;
+    border-color: rgb(218, 165, 97);
+    border-style: solid;
+}
+.red {
+    color: red;
+    border-color:  rgb(211, 89, 59);
+    border-style: solid;
+    font-style: inherit;
+}
+.largered {
+    color: red;
+    font-size: 25px;
+}
+.font{
+    font-style: oblique;
+    text-decoration: underline;
+}

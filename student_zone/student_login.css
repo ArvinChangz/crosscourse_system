@@ -1,0 +1,23 @@
+
+
+table {
+    border-style: 5px;
+}
+th {
+    text-align: center;
+    image-orientation: initial;
+    font-size: 25px
+}
+
+.small {
+    text-align: center;
+    font-size: small;
+}
+
+.red {
+    color: brown;
+}
+
+.white {
+    color: white;
+}
