@@ -9,7 +9,7 @@
 
 頁面呈現為上方一排選單，中間單獨使用iFrame進行頁面的切換，故網頁整體外觀不會更動
 
-<img src="images/readme_images/index.png" width="50%">
+<img src="images/readme_images/index.png" width="100%">
 
 ----
 
@@ -19,15 +19,15 @@
 
 * 學生登入頁面
 
-<img src="images/readme_images/student_login.png" width="50%">
+<img src="images/readme_images/student_login.png" width="100%">
 
 * 學生註冊頁面
 
-<img src="images/readme_images/student_register.png" width="50%">
+<img src="images/readme_images/student_register.png" width="100%">
 
 * 學生選課頁面
 
-<img src="images/readme_images/student_course.png" width="50%">
+<img src="images/readme_images/student_course.png" width="100%">
 
 ----
 
@@ -37,11 +37,11 @@
 
 * 審核人員登入頁面
 
-<img src="images/readme_images/admin_login.png" width="50%">
+<img src="images/readme_images/admin_login.png" width="100%">
 
 * 審核人員審核頁面
 
-<img src="images/readme_images/admin_status.png" width="50%">
+<img src="images/readme_images/admin_status.png" width="100%">
 
 
 
