@@ -1,4 +1,4 @@
-# 跨校生選課系統
+# 跨校生選課系統 Cross Course Application System
 
 該專案主要為因應學生有 **跨校選課** 之需求所設計，為大一網頁前端課程時運用HTML、CSS所撰寫
 
